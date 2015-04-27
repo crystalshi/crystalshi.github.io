@@ -1,0 +1,124 @@
+<html>
+<head>
+	<title>Crystal Shi</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400' rel='stylesheet' type='text/css'>
+	<link rel ="stylesheet" type="text/css" href="assets/css/style.css"  />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+    </script> 
+    <script src = "assets/js/script.js"></script>
+</head>
+
+<body>
+	<!--nav bar-->
+	<ul id="nav-bar">
+		<a href="#home"><li>Home</li></a>
+		<a href="#about"><li>About</li></a>
+		<a href="#blog"><li>Blog</li></a>
+		<a href="#contact"><li>Contact</li></a>
+	</ul>
+
+	<div id="header">
+		<!--home-->
+		<div id="home">
+			<div id="home-content">
+				<div id="name">CRYSTAL SHI</div>
+				<div id="subheader">UC Berkeley. Cognitive Science. Class of 2018.</div>
+			</div>
+		</div>
+	</div>
+
+	<!--content-->
+	<div id="container">
+		<!--about-->
+		<div class="section" id="about">
+			<div class="header"><img class="flourish" src="assets/img/flourish.png" />   About   <img class="flourish" src="assets/img/flourishflipped.png" /></div>
+			<div id="about-pics-row">
+				<img class="hidden about-pic" src="assets/img/profile.png" />
+				<img class="hidden about-pic" src="assets/img/cssa.png" />
+				<img class="hidden about-pic" src="assets/img/spoon.png" />
+			</div>			
+
+			<div class="hidden about-row">
+				<img class="about-pic" src="assets/img/profile.png" />
+				<span class="about-descrip">
+					<div class="about-title">San Diego (Almost) Native</div>
+					<div class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+				</span>
+			</div>
+			<div class="hidden about-row">
+				<img class="about-pic" src="assets/img/cssa.png" />
+				<span class="about-descrip">
+					<div class="about-title">Brain Enthusiast</div>
+					<div class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+				</span>
+			</div>
+			<div class="hidden about-row">
+				<img class="about-pic" src="assets/img/spoon.png" />
+				<span class="about-descrip">
+					<div class="about-title">Aspiring Writer</div>
+					<div class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+				</span>
+			</div>
+		</div>
+		<!--blog-->
+		<div class="section" id="blog">
+			<div class="header"><img class="flourish" src="assets/img/flourish.png" />   Blog   <img class="flourish" src="assets/img/flourishflipped.png" /></div>
+			<div class="blogpost-row">
+				<div class="blogpost">
+					<div class="overlay"><div class="overlay-text">April 26th, 2015<div>On San Francisco</div></div></div>
+					<img class="blogpost-img" src="assets/img/ggbridge.jpeg" />
+				</div>
+				<div class="blogpost">
+					<div class="overlay"><div class="overlay-text">April 23rd, 2015<div>On Mornings</div></div></div>
+					<img class="blogpost-img" src="assets/img/cup.jpeg" />
+				</div>
+				<div class="blogpost">
+					<div class="overlay"><div class="overlay-text">April 21st, 2015<div>On Bittersweet Goodbyes</div></div></div>
+					<img class="blogpost-img" src="assets/img/station.jpeg" />
+				</div>
+			</div>
+			<div class="blogpost-row">
+				<div class="blogpost">
+					<div class="overlay"><div class="overlay-text">April 17th, 2015<div>On Flower Fields</div></div></div>
+					<img class="blogpost-img" src="assets/img/flowers.jpeg" />
+				</div>
+				<div class="blogpost">
+					<div class="overlay"><div class="overlay-text">April 11th, 2015<div>On Kittens and Rainy Days</div></div></div>
+					<img class="blogpost-img" src="assets/img/cat.jpg" />
+				</div>
+				<div class="blogpost">
+					<div class="overlay"><div class="overlay-text">April 9th, 2015<div>On Exploring</div></div></div>
+					<img class="blogpost-img" src="assets/img/bike.jpg" />
+				</div>
+			</div>
+			<div id="see-more"><a href="">See more >>></a></div>
+		</div>
+		<!--contact-->
+		<div class="section" id="contact">
+			<div class="header"><img class="flourish" src="assets/img/flourish.png" />   Contact   <img class="flourish" src="assets/img/flourishflipped.png" /></div>
+			<div id="form-container">
+				<form action="" method="post">
+					<div class="form-row">
+						<input name="name" type="text" placeholder="NAME" required>
+						<input name="movie" type="text" placeholder="FAVORITE MOVIE" required>
+					</div>
+					<div class="form-row">
+						<input name="email" type="text" placeholder="EMAIL">
+						<input name="song" type="text" placeholder="FAVORITE SONG">
+					</div>
+					<input name="message" type="text" placeholder="WRITE YOUR MESSAGE HERE" required>
+					<div id="submit">SUBMIT</div>
+				</form>
+			</div>
+
+			<div id="submitted-message"></div>
+			<img id="open-envelope" class="hidden" src="assets/img/openenvelope.png" />
+			<img id="closed-envelope" class="hidden" src="assets/img/closedenvelope.png" />
+		</div>
+	</div>
+	
+	<!-- footer -->
+	<div id="footer">
+		<div id="copyright">(C) Crystal Shi</div>
+	</div>
+</body>
